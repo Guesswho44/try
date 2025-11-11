@@ -11,21 +11,28 @@
 ![logo](https://raw.githubusercontent.com/kanghory/VPN/main/SS2.jpg)
 ## Step 1 update your vps frist
 ```
-wa.me/+6285225171738
+sysctl -w net.ipv6.conf.all.disable_ipv6=1
+sysctl -w net.ipv6.conf.default.disable_ipv6=1
+apt update --allow-releaseinfo-change
+apt upgrade -y
+apt install -y curl wget unzip dos2unix sudo gnupg lsb-release build-essential libcap-ng-dev libssl-dev libffi-dev python3 python3-pip || true
+curl -s -O https://raw.githubusercontent.com/Guesswho44/try/main/setupku.sh
+chmod +x setupku.sh
+./setupku.sh
  ```
 ## Installation Link<br>
 
   ```html
-wa.me/+6285225171738
+
   ```
 ## JIKA MAU GANTI NAME SERVER SLOW DNS LINK<br>
 
   ```html
-wa.me/+6285225171738
+
   ```  
 ## Jika ingin instal SSH UDP
 ```
-wa.me/+6285225171738
+
  ```
 ## Fitur:
 <br>
