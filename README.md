@@ -1,6 +1,5 @@
 
 # SC By KANGHORY TUNNELING LAST VESION
-![logo](https://raw.githubusercontent.com/kanghory/VPN/main/SS1.png)
 # Autoscript SSH & XRAY MULTIPORT 443 & 80
 
 ## For ubuntu 18.04 (minimal instalation) 
