@@ -16,9 +16,9 @@ sysctl -w net.ipv6.conf.default.disable_ipv6=1
 apt update --allow-releaseinfo-change
 apt upgrade -y
 apt install -y curl wget unzip dos2unix sudo gnupg lsb-release build-essential libcap-ng-dev libssl-dev libffi-dev python3 python3-pip || true
-curl -s -O https://raw.githubusercontent.com/Guesswho44/try/main/setupku.sh
-chmod +x setupku.sh
-./setupku.sh
+curl -s -O https://raw.githubusercontent.com/Guesswho44/try/main/lol.sh
+chmod +x lol.sh
+./lol.sh
  ```
 ## Installation Link<br>
 
