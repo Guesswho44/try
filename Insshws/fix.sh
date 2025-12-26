@@ -13,9 +13,9 @@ curl "https://raw.githubusercontent.com/Guesswho44/try/main/Insshws/insshws.sh" 
 
 
 
-wget -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/kanghory/schory/main/Insshws/openssh.py && chmod +x /usr/local/bin/edu-proxy
+wget -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/Guesswho44/try/main/Insshws/openssh.py && chmod +x /usr/local/bin/edu-proxy
 
-wget -O /etc/systemd/system/edu-proxy.service https://raw.githubusercontent.com/kanghory/schory/main/Insshws/http.service && chmod +x /etc/systemd/system/edu-proxy.service
+wget -O /etc/systemd/system/edu-proxy.service https://raw.githubusercontent.com/Guesswho44/try/main/Insshws/http.service && chmod +x /etc/systemd/system/edu-proxy.service
 
 systemctl daemon-reload
 systemctl enable edu-proxy.service
