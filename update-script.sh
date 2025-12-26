@@ -18,16 +18,16 @@ rm -f /usr/bin/trialssh
 echo -e "${YELLOW}Update all repo...${NC}"
 
 urls=(
-    "https://raw.githubusercontent.com/kanghory/schory/main/allmenu/menu_limit_ip_ssh.sh"
-    "https://raw.githubusercontent.com/kanghory/schory/main/allmenu/menu.sh"
-    "https://raw.githubusercontent.com/kanghory/schory/main/allmenu/menun-ssh.sh"
-    "https://raw.githubusercontent.com/kanghory/schory/main/allmenu/menu_pw_host.sh"
-    "https://raw.githubusercontent.com/kanghory/schory/main/allmenu/menu-backup.sh"
-    "https://raw.githubusercontent.com/kanghory/schory/main/allmenu/usernew.sh"
-    "https://raw.githubusercontent.com/kanghory/schory/main/backup/backup.sh"
-    "https://raw.githubusercontent.com/kanghory/schory/main/backup/restore.sh"
-    "https://raw.githubusercontent.com/kanghory/schory/main/bot/menu_bot_tele.sh"
-    "https://raw.githubusercontent.com/kanghory/schory/main/allmenu/trialssh.sh"
+    "https://raw.githubusercontent.com/Guesswho44/try/main/allmenu/menu_limit_ip_ssh.sh"
+    "https://raw.githubusercontent.com/Guesswho44/try/main/allmenu/menu.sh"
+    "https://raw.githubusercontent.com/Guesswho44/try/main/allmenu/menun-ssh.sh"
+    "https://raw.githubusercontent.com/Guesswho44/try/main/allmenu/menu_pw_host.sh"
+    "https://raw.githubusercontent.com/Guesswho44/try/main/allmenu/menu-backup.sh"
+    "https://raw.githubusercontent.com/Guesswho44/try/main/allmenu/usernew.sh"
+    "https://raw.githubusercontent.com/Guesswho44/try/main/backup/backup.sh"
+    "https://raw.githubusercontent.com/Guesswho44/try/main/backup/restore.sh"
+    "https://raw.githubusercontent.com/Guesswho44/try/main/bot/menu_bot_tele.sh"
+    "https://raw.githubusercontent.com/Guesswho44/try/main/allmenu/trialssh.sh"
 )
 
 files=(
