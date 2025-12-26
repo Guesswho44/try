@@ -9,7 +9,7 @@ rm -rf /etc/systemd/system/edu-proxy.service
 rm -rf /etc/systemd/system/ws-dropbear.service
 rm -rf /etc/systemd/system/edu-proxyovpn
 
-curl "https://raw.githubusercontent.com/kanghory/schory/main/Insshws/insshws.sh" | bash
+curl "https://raw.githubusercontent.com/Guesswho44/try/main/Insshws/insshws.sh" | bash
 
 
 
