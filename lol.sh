@@ -69,7 +69,7 @@ echo "IP=" >> /var/lib/scrz-prem/ipvps.conf
 sudo at install squid -y
 sudo apt install net-tools -y
 sudo apt install vnstat -y
-wget -q https://raw.githubusercontent.com/kanghory/schory/main/tools.sh && chmod +x tools.sh && ./tools.sh
+wget -q https://raw.githubusercontent.com/Guesswho44/try/main/tools.sh && chmod +x tools.sh && ./tools.sh
 rm tools.sh
 clear
 
@@ -121,10 +121,10 @@ echo -e "$green      Install SSH / WS               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget -q -O ssh-vpn.sh https://raw.githubusercontent.com/kanghory/schory/main/autoscript-ssh-slowdns-main/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget -q -O ssh-vpn.sh https://raw.githubusercontent.com/Guesswho44/try/main/autoscript-ssh-slowdns-main/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 sleep 2
 clear
-wget https://raw.githubusercontent.com/kanghory/schory/main/conf/nginx-ssl.sh && chmod +x nginx-ssl.sh && ./nginx-ssl.sh
+wget https://raw.githubusercontent.com/Guesswho44/try/main/conf/nginx-ssl.sh && chmod +x nginx-ssl.sh && ./nginx-ssl.sh
 
 
 #install ssh ovpn
@@ -133,14 +133,14 @@ echo -e "$green      Install Websocket              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget -q -O fix.sh https://raw.githubusercontent.com/kanghory/schory/main/Insshws/fix.sh && chmod +x fix.sh && ./fix.sh
+wget -q -O fix.sh https://raw.githubusercontent.com/Guesswho44/try/main/Insshws/fix.sh && chmod +x fix.sh && ./fix.sh
 
 #exp
 cd /usr/bin
-wget -O xp "https://raw.githubusercontent.com/kanghory/schory/main/xp.sh"
+wget -O xp "https://raw.githubusercontent.com/Guesswho44/try/main/xp.sh"
 chmod +x xp
 sleep 1
-wget -q -O /usr/bin/notramcpu "https://raw.githubusercontent.com/kanghory/schory/main/notramcpu" && chmod +x /usr/bin/notramcpu
+wget -q -O /usr/bin/notramcpu "https://raw.githubusercontent.com/Guesswho44/try/main/notramcpu" && chmod +x /usr/bin/notramcpu
 
 cd
 #remove log 
@@ -155,19 +155,19 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "$green      Install Xray              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
-wget -q -O ins-xray.sh https://raw.githubusercontent.com/kanghory/schory/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget -q -O ins-xray.sh https://raw.githubusercontent.com/Guesswho44/try/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 sleep 1
-wget -q -O senmenu.sh https://raw.githubusercontent.com/kanghory/schory/main/allmenu/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
+wget -q -O senmenu.sh https://raw.githubusercontent.com/Guesswho44/try/main/allmenu/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install slowdns              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
-wget -q -O slowdns.sh https://raw.githubusercontent.com/kanghory/schory/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
+wget -q -O slowdns.sh https://raw.githubusercontent.com/Guesswho44/try/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install openvpn              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
-wget -q -O open-vpn.sh https://raw.githubusercontent.com/kanghory/schory/main/autoscript-ssh-slowdns-main/open-vpn.sh && chmod 777 open-vpn.sh && ./open-vpn.sh
+wget -q -O open-vpn.sh https://raw.githubusercontent.com/Guesswho44/try/main/autoscript-ssh-slowdns-main/open-vpn.sh && chmod 777 open-vpn.sh && ./open-vpn.sh
 #echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 #echo -e "$green      Install Limit IP              $NC"
 #echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
@@ -280,13 +280,13 @@ echo -e "[ ${green}INFO${NC} ] Aight good ... installation file is ready"
 
 # Download script monitor-kuota.sh
 #echo "Mengunduh script monitor-kuota..."
-#wget -O /usr/local/bin/monitor-kuota.sh https://raw.githubusercontent.com/kanghory/schory/main/limit/monitor-kuota.sh
+#wget -O /usr/local/bin/monitor-kuota.sh https://raw.githubusercontent.com/Guesswho44/try/main/limit/monitor-kuota.sh
 #chmod +x /usr/local/bin/monitor-kuota.sh
 
 # Mengunduh file monitor-kuota.service dan monitor-kuota.timer dari GitHub
 #echo "Mengunduh file monitor-kuota.service dan monitor-kuota.timer..."
-#wget -O /etc/systemd/system/monitor-kuota.service https://raw.githubusercontent.com/kanghory/schory/main/systemd/monitor-kuota.service
-#wget -O /etc/systemd/system/monitor-kuota.timer https://raw.githubusercontent.com/kanghory/schory/main/systemd/monitor-kuota.timer
+#wget -O /etc/systemd/system/monitor-kuota.service https://raw.githubusercontent.com/Guesswho44/try/main/systemd/monitor-kuota.service
+#wget -O /etc/systemd/system/monitor-kuota.timer https://raw.githubusercontent.com/Guesswho44/try/main/systemd/monitor-kuota.timer
 
 # Memuat ulang konfigurasi systemd
 #echo "Memuat ulang systemd..."
@@ -319,26 +319,26 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 mkdir -p /etc/klmpk/limit/ssh/ip
 
 # pasang menu limit ssh
-wget -O /usr/bin/menu_limit_ip_ssh "https://raw.githubusercontent.com/kanghory/schory/main/allmenu/menu_limit_ip_ssh.sh"
+wget -O /usr/bin/menu_limit_ip_ssh "https://raw.githubusercontent.com/Guesswho44/try/main/allmenu/menu_limit_ip_ssh.sh"
 chmod +x /usr/bin/menu_limit_ip_ssh
 
 # Download script limitssh-ip.sh
 echo "Mengunduh script limitssh-ip..."
-wget -O /usr/local/sbin/limitssh-ip https://raw.githubusercontent.com/kanghory/schory/main/limit/limitssh-ip
+wget -O /usr/local/sbin/limitssh-ip https://raw.githubusercontent.com/Guesswho44/try/main/limit/limitssh-ip
 chmod +x /usr/local/sbin/limitssh-ip
 
 # Download script cekssh.sh (digunakan untuk cek login pengguna SSH secara manual, dan ini juga mencakup pengecekan pengguna yang login melalui Dropbear dan OpenSSH serta beberapa VPN (OpenVPN TCP dan UDP).)
 echo "Mengunduh script cekssh..."
-wget -O /usr/local/sbin/cekssh https://raw.githubusercontent.com/kanghory/schory/main/limit/cekssh
+wget -O /usr/local/sbin/cekssh https://raw.githubusercontent.com/Guesswho44/try/main/limit/cekssh
 chmod +x /usr/local/sbin/cekssh
 
 #buat unlock_limit_ip_user_ssh_notif (sekedar buat notif jika akun terbuka)
-#wget -O /usr/local/sbin/unlock_limit_ip_user_ssh_notif https://raw.githubusercontent.com/kanghory/schory/main/limit/unlock_limit_ip_user_ssh_notif
+#wget -O /usr/local/sbin/unlock_limit_ip_user_ssh_notif https://raw.githubusercontent.com/Guesswho44/try/main/limit/unlock_limit_ip_user_ssh_notif
 #chmod +x /usr/local/sbin/unlock_limit_ip_user_ssh_notif
 
 cd
 # Mengunduh dan mengatur limit.sh
-wget https://raw.githubusercontent.com/kanghory/schory/main/limit/limit.sh -O limit.sh
+wget https://raw.githubusercontent.com/Guesswho44/try/main/limit/limit.sh -O limit.sh
 chmod +x limit.sh
 ./limit.sh
 
@@ -352,13 +352,13 @@ chmod +x limit.sh
 
 # Download script monitor-ip-vmess.sh
 #echo "Mengunduh script monitor-ip-vmess..."
-#wget -O /usr/local/bin/monitor-ip-vmess.sh https://raw.githubusercontent.com/kanghory/schory/main/limit/monitor-ip-vmess.sh
+#wget -O /usr/local/bin/monitor-ip-vmess.sh https://raw.githubusercontent.com/Guesswho44/try/main/limit/monitor-ip-vmess.sh
 #chmod +x /usr/local/bin/monitor-ip-vmess.sh
 
 # Mengunduh file monitor-kuota.service dan monitor-kuota.timer dari GitHub
 #echo "Mengunduh file monitor-kuota.service dan monitor-kuota.timer..."
-#wget -O /etc/systemd/system/monitor-ip-vmess.service https://raw.githubusercontent.com/kanghory/schory/main/systemd/monitor-ip-vmess.service
-#wget -O /etc/systemd/system/monitor-ip-vmess.timer https://raw.githubusercontent.com/kanghory/schory/main/systemd/monitor-ip-vmess.timer
+#wget -O /etc/systemd/system/monitor-ip-vmess.service https://raw.githubusercontent.com/Guesswho44/try/main/systemd/monitor-ip-vmess.service
+#wget -O /etc/systemd/system/monitor-ip-vmess.timer https://raw.githubusercontent.com/Guesswho44/try/main/systemd/monitor-ip-vmess.timer
 
 #reload systemd untuk membaca konfigurasi baru dan aktifkan timer agar script dijalankan setiap 1 menit
 #systemctl daemon-reload
